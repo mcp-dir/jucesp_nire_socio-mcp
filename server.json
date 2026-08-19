@@ -1,0 +1,17 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.mcp-dir/jucesp_nire_socio-mcp",
+  "title": "JUCESP: NIRE a partir de Sócio",
+  "description": "Finds companies at JUCESP from a partner (name, CPF or CNPJ), returning each NIRE. Platform-hosted, ",
+  "version": "0.1.0",
+  "repository": {
+    "url": "https://github.com/mcp-dir/jucesp_nire_socio-mcp",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.mcp.ai/p_jucesp_nire_socio"
+    }
+  ]
+}
